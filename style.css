@@ -1,3 +1,4 @@
+/* sets box-sizing of html elements, sets font-color to white, and gives the background of the webpage black */
 body {
     margin: 0px;
     padding: 0px;
@@ -5,6 +6,7 @@ body {
     color: white;
 }
 
+/* gives the oversized banner height, and width while displaying it on the center of the webpage */
 .hero {
     width: 100%;
     height: 600px;
@@ -14,6 +16,7 @@ body {
     margin-bottom: 20px;
 }
 
+/* displays the elements of the navbar horizontally, and displays the container on the top of the webpage */
 nav {
     display: flex;
     margin: auto;
@@ -25,6 +28,7 @@ nav {
 }
 
 
+/* spaces out the navbar elements by 40px, removing underline to link, and setting font-color to white */
 nav a {
     margin-left: 40px;
     color: white;
@@ -32,6 +36,7 @@ nav a {
     
 }
 
+/* when a nav anchor is hovered over it while give the element a rounded background with the color of black */
 nav a:hover {
     padding:5px;
     border: 10px;
@@ -39,6 +44,7 @@ nav a:hover {
     background-color: black;
 }
 
+/* sets the dimensions of the image displayed on the right hand side of the navbar */
 #img-me {
     width: 50px;
     height: 50px;
@@ -47,13 +53,14 @@ nav a:hover {
     margin-right: 25px;
 }
 
+/* image in the navbar will be displayed larger than default when hovered over */
 #img-me:hover {
     width: 70px;
     height: 70px;
 
 }
 
-
+/* creates container for the about, work, and contact sections, and setting font-family for the elements nested within */
 #about, #work, #contact {
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +74,7 @@ nav a:hover {
     color: #ffffff;
 }
 
+/* defines the dimensions of the images, while setting the opacity to .5 the original image opacity in the work section and tells them to wrap for responsive design */
 #work-img-1, #work-img-2 {
     display: flex;
     justify-content: center;
@@ -79,14 +87,17 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+/* when the image in the work section is hovered over, the opacity will return to the default of 1 */
 #work img:hover {
     opacity: 1;
 }
 
+/* displays the caption underneath the image, centered */
 figcaption {
     text-align: center;
 }
 
+/* content is displayed using flexbox and will wrap when the container shrinks for responsive design */
 .content {
     display: flex;
     align-items: center;
@@ -94,6 +105,7 @@ figcaption {
     flex-wrap: wrap;
 }
 
+/* contact anchors are spaced-evenly, removes underline underneath text, and given a text-color of white */
 #contact a {
     display: flex;
     justify-content: space-evenly;
@@ -101,6 +113,7 @@ figcaption {
     text-decoration: none;
 }
 
+/* font-size is displayed bottom center of the webpage */
 footer {
     padding: 20px;
     text-align: center;
