@@ -15,7 +15,7 @@
 ## Usage 
 
 https://kimkristion.github.io/Portfolio-Webpage/
-(<![Deployed Website](<Screenshot (11).png>)>)
+![Deployed Website](<Screenshot (11).png>)
 
 ## Credits
 
