@@ -14,8 +14,8 @@
 
 ## Usage 
 
-https://kimkristion.github.io/Project-Horiseon-Refactoring/
-![Deployed Website](<Screenshot 2023-07-25 224859.png>)
+https://kimkristion.github.io/Portfolio-Webpage/
+![Deployed Website](<>)
 
 ## Credits
 
